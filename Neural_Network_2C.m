@@ -58,7 +58,7 @@ fprintf('Reading and Preparing Training Data \n')
 %Picture you want to use for training
 inputPicture = imread('training.png');
 %Image with the labels corresponding to your inputPicture
-labelPicture = imread('labels_color.png');
+labelPicture = imread('L_training.png');
 
 %Uncomment the following lines if you want to see your loaded pictures before training
 % imshow(inputPicture);
